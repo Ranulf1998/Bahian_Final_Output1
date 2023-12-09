@@ -2,6 +2,8 @@
 <html>
 <head>
 
+<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+
   <title>BLOG</title>
 
  <style> 
@@ -38,7 +40,7 @@
 		background-color: #ebebe0;
 		}
 		button{
-        width: 80px;
+        width: 100px;
         height: 37px;
         background-color: white;
         color: black;
@@ -85,7 +87,8 @@
 			}
 			body {
 		background-image: url("../pages/img/bg2.jpg");	
-		background-size: 100%;
+		background-size: cover;
+		background-position: center;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		}
@@ -119,6 +122,20 @@
 		.container h4{
 		color: #55066b;
 		}
+	@media screen and (max-width: 768px)
+		{
+		.container2 p{
+		float: right;
+		margin-top: 90px;
+		margin-right: 20px;
+		font-size: 20px;
+		}
+		.container{
+		display: flex;
+		margin: 30px;
+		padding: 0;
+		}
+		}
 
  </style>
  
@@ -131,7 +148,7 @@
 	 <ul>
 	 <li><a href="../index.html"><button type ="button">HOME</button></a></li>
 	 <li><a href="BLOG.html"><button type ="button">ITIII BLOG</button></a></li>
-	 <li><a href="FLEX.html"><button style="width: 100px;">FLEX PAGE</button></a></li>
+	 <li><a href="FLEX.html"><button type ="button">FLEX PAGE</button></a></li>
 	 </ul>
 	 </nav>
 	 </div>		
@@ -188,8 +205,8 @@
 
  </body>
 <footer>
-		<h3>© Ranulf Bueno Bahian 2023</h3>
-		<p> all rights reserved. </p>
+		<h3>© RANULF BUENO BAHIAN 2023</h3>
+		<p> ALL RIGHTS RESERVED. </p>
 			</footer>
 
 
