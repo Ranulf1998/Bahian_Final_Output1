@@ -27,7 +27,7 @@
 			text-align: center;
 		}
 		ul { 
-		list-style-type: none;
+		list-style-type: flex;
 		margin: 0;
 		padding: 0;
 		float: right;
@@ -35,7 +35,7 @@
 		}
 		ul li {
 		display: inline-block;
-		line height: 80px;
+		line height: 10px;
 		margin: 0 5px;
 		}
 		img {	
@@ -131,7 +131,7 @@
             color: white;
         }
 		button{
-        width: 80px;
+        width: 100px;
         height: 37px;
         background-color: white;
         color: black;
@@ -142,18 +142,18 @@
         color: black;
         transition: ease 0.2s;
       }
-		@media screen and (max-width: 768px)
+	@media screen and (max-width: 768px)
 		{
 		img {	
 		border-radius: 50%;
 		height: 100px;
 		width: 100px;
-		margin-left: 30px;
+		margin-left: 40px;
 		}
 		.img p { 
 		float: right;
 		margin-top: 30px;
-		margin-right: 250px;
+		margin-right: auto;
 		font-size: 15px;
 		background: linear-gradient(90deg,yellow,white);
 		font-family: Poppins;
@@ -162,24 +162,65 @@
 		}
 		.left-div{			
             width: 50%;
-            padding: 15px;
+            padding: 10px;
 			border: 0 solid #000;
 			position: solid;
-			margin: 20px;
+			margin: 10px;
 			}
 		.right-div{		
 		    width: 50%;
-            padding: 15px;
+            padding: 10px;
 			border: 0 solid #000;
 			position: solid;
-			margin: 20px;
+			margin: 10px;
 			}
 		.container p{ 
 		margin: 10px;
 		padding: 5px;
 		text-align: justify;
 		font-family: SimHei;
-		font-size: 15px;
+		font-size: 10px;
+		}
+		.container h2{ 
+		font-size: 12px;
+		}
+		.fa {	
+        padding: 20px;
+        font-size: 30px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        }
+		button{
+        width: 50px;
+        height: 20px;
+        background-color: white;
+        color: black;
+		border: 1px black solid;
+		font-size: 6px;
+      }
+		ul { 
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		float: right;
+		margin-right: 20px;
+		}
+		ul li {
+		display: inline-block;
+		line height: 50px;
+		margin: 0 5px;
+		}
+		header h1{			
+		background: linear-gradient(90deg,#00dbde,#fc00ff);
+		font-family: Poppins;
+		font-size: 20px;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		}
+		footer{ 
+		font-size: 10px;
 		}
 		}
 		</style>	
@@ -190,7 +231,7 @@
 	 <ul>
 	 <li><a href="index.html"><button type ="button">HOME</button></a></li>
 	 <li><a href="pages/BLOG.html"><button type ="button">ITIII BLOG</button></a></li>
-	 <li><a href="pages/FLEX.html"><button style="width: 100px;">FLEX PAGE</button></a></li>
+	 <li><a href="pages/FLEX.html"><button type ="button">FLEX PAGE</button></a></li>
 	 </ul>
 	 </nav>
 	 </div>		
