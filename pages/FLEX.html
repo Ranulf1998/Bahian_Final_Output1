@@ -2,6 +2,8 @@
 <html>
 <head>
 
+<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+
   <title>Flex Page</title>
 
  <style> 
@@ -48,7 +50,7 @@
 		background-color: #ebebe0;
 		}
 		button{
-        width: 80px;
+        width: 100px;
         height: 37px;
         background-color: white;
         color: black;
@@ -77,7 +79,6 @@
 		border-radius: 13px;
 		box-shadow: 4px 7px 0px;
 		cursor: pointer;
-		margin left: 50px;
 		transition: 800ms;
 		animation: fadeInleft 3s ease;
 		}
@@ -96,6 +97,7 @@
 		border: 2px solid gray;
 		border-radius: 5px;
 		margin: 18px;
+		
 		}
 		.container3 h2{
 		text-align: center;
@@ -171,12 +173,29 @@
 		height: 90%;
 		opacity: 1;
 		}
+		
 		body {
 		background-image: url("img/gif1.gif");	
-		background-size: 100%;
+		background-size: cover;
+		background-position: center;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		}
+		@media screen and (max-width: 768px) 
+		{
+		.container2{
+		display: grid;
+		grid-template-columns: repeat(5,1fr);
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 5px;
+		padding: 20px;
+		}
+		}
+		
+		
+		
 		@keyframes fadeInleft {
 		from{
         transform: translate(-100%);
@@ -184,6 +203,8 @@
 		}to{
         opacity: 2;
 		}
+		
+	
 		
  </style>
  
@@ -196,7 +217,7 @@
 	 <ul>
 	 <li><a href="../index.html"><button type ="button">HOME</button></a></li>
 	 <li><a href="BLOG.html"><button type ="button">ITIII BLOG</button></a></li>
-	 <li><a href="FLEX.html"><button style="width: 100px;">FLEX PAGE</button></a></li>
+	 <li><a href="FLEX.html"><button type ="button">FLEX PAGE</button></a></li>
 	 </ul>
 	 </nav>
 	 </div>		
@@ -226,7 +247,7 @@
 	<br>
 	<br>
 	<img src="img/f2.jpg"> 
-	<p> To my ever-supportive family who is always there for me in ups and downs.<br> Supporting every decisions I make in life. Thank You. </p>
+	<p> To my ever supportive family who is always there for me in ups and downs.<br> Supporting every dicisions I make in life. Thank You. </p>
 	</div>
 	<div class="p3">
 	<img src="img/f3.jpg"> 
@@ -238,11 +259,11 @@
 	</div>
 	<div class="p5">
 	<img src="img/f5.jpg"> 
-	<p> I guess graduating from high school could be one of my achievements.<br> I never really thought I would graduate from high school because of my online game addiction, cutting classes becomes normal.<br> But it's thanks to my friends who console me to doing my best to graduate that I was able to finish high school. </p>
+	<p> I guess graduating in highschool could be one of my achievements.<br> I never really thought I would gradute in highschool because of my online game addiction, cutting classes becomes normal.<br> But it's thanks to my friends who console me to doing my best to graduate that I was able to finish high school. </p>
 	</div>
 	<div class="p6">
 	<img src="img/f6.jpg"> 
-	<p> To my circle of friends in college with whom I shared experiences, mutual growth, and unwavering support.<br> The diversity within this circle creates a microcosm of the world, fostering an environment where differences are celebrated, and lifelong bonds are forged. </p>
+	<p> To my circle of friends in college whom I shared experiences, mutual growth, and unwavering support.<br> The diversity within this circle creates a microcosm of the world, fostering an environment where differences are celebrated, and lifelong bonds are forged. </p>
 	</div>
 	</div>
 	<br>
@@ -391,8 +412,8 @@
 	<br>
 
 <footer>
-		<h3>© Ranulf Bueno Bahian 2023</h3>
-		<p> all rights reserved. </p>
+		<h3>© RANULF BUENO BAHIAN 2023</h3>
+		<p> ALL RIGHTS RESERVED. </p>
 			</footer>
 
 
